@@ -8,6 +8,8 @@
 *.dll
 *.so
 *.dylib
+blog
+blog.exe
 
 # Go测试文件
 *.test
@@ -26,3 +28,13 @@ go.sum
 
 # 日志文件
 *.log
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 环境配置文件
+.env
+.env.local
+.env.production
